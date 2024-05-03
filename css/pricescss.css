@@ -1,0 +1,140 @@
+html, body {
+    margin:0;
+  padding:0;
+  height:100vh;
+  justify-content:center;                          
+  align-items:center;
+ box-sizing: border-box;
+
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative ;
+    background-image: url(../img/precondo-ca-GuXhiz45lq8-unsplash.jpg);
+ background-position:center;
+ background-size: cover;
+
+}
+.upbar{
+    /* background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967); */
+    background-color: transparent;
+    height: 70px;
+    width: 100%;
+    display:flex ;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.upbar div{
+    display: flex;
+    
+}
+.upbar div h1{
+   
+    font-size:5vh;
+    font-weight: 700;
+}
+.upbar ul li{
+    display: inline-block;
+    margin: 10px 30px;
+    
+}
+.upbar ul li a{
+    text-decoration: none;
+    font-size: 4vh;
+    font-weight: 600;
+    color: black;
+}
+
+.upbar ul li a:hover{
+    color: #AE8625;
+}
+#Cost {
+    color:#AE8625;
+}
+.upbar .logo{
+    height: 15vh;
+    width:15vh;
+   
+}
+.Searchbar {margin-top: -2rem;
+    font-size: 1rem;
+    text-align:center ;
+}
+
+.bar input{
+    
+    padding-left: 1rem;
+    height: 2rem;
+    border:0.5px solid black;
+    border-radius: 30px; 
+}
+.bar button{
+    height: 2rem;
+    padding:0.5rem;
+      font-weight: 700;
+    background-color: #ce9c28;
+    border:2px solid black;
+    border-radius: 30px;
+}
+.bar button:hover{
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+}
+.SearchResult{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.SingleResult{
+    
+   /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+    align-items: center;
+    padding: 0rem 2rem;
+    margin: 0rem 5rem;
+   gap: 1rem;
+    /* justify-content: space-between; */
+    transition: all 0.25s;
+    
+}
+.SingleResult:hover{
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+}
+.SingleResult img{
+    height: 2rem;
+    
+}
+.SingleResult p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.SingleResult h3{
+    font-size: 1.5rem;
+}
+.SingleResult a{
+    color: black;
+    text-decoration: none;
+background-color: white;
+border: 1px solid black;
+    height: 1rem;
+cursor:pointer;
+border-radius: 5px;
+transition: all 0.25s;
+font-weight: 600;
+padding: 0.5rem;
+margin-left: auto;
+
+}
+.SingleResult a:hover{
+    background-color: black;
+   color: white;
+}
