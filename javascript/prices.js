@@ -16,8 +16,18 @@ function convertToJSON(response) {
 }
 
 function render(data) {
-    console.log(data.coins);
+    const searchResultElement = document.getElementById('search-result');
+        if (data.coins.length === 0) {
+        const noResultMessage = document.createElement('div');
+        noResultMessage.classList.add('noFound');
+
+        noResultMessage.innerText = "No results found :(";
+        searchResultElement.appendChild(noResultMessage);
+        return;
+    }
+   
     for (let i = 0; i < data.coins.length; i++) {
+       
         const singleCoin = data.coins[i];
         console.log(singleCoin);
         const index = i + 1;

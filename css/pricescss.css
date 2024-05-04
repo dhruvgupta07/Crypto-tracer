@@ -138,3 +138,9 @@ margin-left: auto;
     background-color: black;
    color: white;
 }
+.noFound{
+    text-align: center;
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
