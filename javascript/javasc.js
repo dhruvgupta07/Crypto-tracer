@@ -1,4 +1,4 @@
-// Get the login form and registration form elements
+
 var loginContainer = document.querySelector('.wrapper');
 var registerContainer = document.querySelector('.wrapper2');
 var registerLink = document.querySelector('.registerLink');
@@ -18,6 +18,10 @@ registerLink2.addEventListener('click', function(event) {
     loginContainer.style.display = 'block';
     
   });
+
+   
+
+
 
 
 

@@ -1,0 +1,63 @@
+html, body {
+    margin:0;
+  padding:0;
+  height:100vh;
+  justify-content:center;                          
+  align-items:center;
+ box-sizing: border-box;
+
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative ;
+    background-image: url(../img/precondo-ca-GuXhiz45lq8-unsplash.jpg);
+ background-position:center;
+ background-size: cover;
+
+}
+.upbar{
+    /* background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967); */
+    background-color: transparent;
+    height: 70px;
+    width: 100%;
+    display:flex ;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.upbar div{
+    display: flex;
+    
+}
+.upbar div h1{
+   
+    font-size:5vh;
+    font-weight: 700;
+}
+.upbar ul li{
+    display: inline-block;
+    margin: 10px 30px;
+    
+}
+.upbar ul li a{
+    text-decoration: none;
+    font-size: 4vh;
+    font-weight: 600;
+    color: black;
+}
+
+.upbar ul li a:hover{
+    color: #AE8625;
+}
+
+.upbar .logo{
+    height: 15vh;
+    width:15vh;
+   
+}

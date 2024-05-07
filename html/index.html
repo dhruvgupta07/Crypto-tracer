@@ -40,14 +40,14 @@
         </div>
         <div class="auth">
           <div class="wrapper">
-            <form action="" class="loginForm">
+            <form action="../backend/login.php" class="loginForm" method="post">
                 <h1>Login</h1>
                 <div class="input-box">
-                    <input type="text" placeholder="Username" required>
+                    <input name="username" type="text" placeholder="Username" required>
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-box">
-                    <input type="password" placeholder="Password" required>
+                    <input name="password" type="password" placeholder="Password" required>
                     <i class='bx bxs-lock-alt'></i>
                 </div>
 
@@ -84,7 +84,11 @@
                 <legend><input type="checkbox">I accept all terms & condition</legend>
                 
               </div>
-              <button type="submit" class="btnsub2">Submit</button>
+            
+              <button type="submit" id="myButton" class="btnsub2">Submit</button>
+
+
+
               <div class="register2">
                 <p>Already have an account?<a href="#" class="registerLink2">Login</a></p>
              </div>
