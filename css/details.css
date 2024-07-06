@@ -95,3 +95,6 @@ html, body {
 .history{
     margin:0 5rem 0 5rem;
 }
+#coin-description{
+    text-align: justify;
+}
