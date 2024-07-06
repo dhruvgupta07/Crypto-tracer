@@ -48,7 +48,7 @@ body {
 
 .upbar ul li a{
     
-    font-size: 1.2vh;
+    font-size: 3vh;
     font-weight: 600;
     color: black;
 }
@@ -128,8 +128,8 @@ body {
         height: 4.2rem;
         width: 4.2rem;
     }
-    .upbar .fx {
-        font-size: small;
+    .upbar ul li a {
+        font-size:1.2vh ;
     }
     .content {
         flex-direction: column;
