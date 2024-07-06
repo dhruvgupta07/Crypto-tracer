@@ -46,15 +46,16 @@ body {
     margin: 10px 30px;
 }
 
-.upbar ul li a {
-    font-size: 3vh;
+.upbar ul li a{
+    
+    font-size: 1.2vh;
     font-weight: 600;
     color: black;
 }
 
 .upbar ul li a:hover {
     transform: scale(1.1);
-    font-size: 3.5vh;
+    
 }
 
 .upbar .logo {
@@ -127,8 +128,8 @@ body {
         height: 4.2rem;
         width: 4.2rem;
     }
-    .upbar ul {
-        display: none;
+    .upbar .fx {
+        font-size: small;
     }
     .content {
         flex-direction: column;
