@@ -143,3 +143,57 @@ margin-left: auto;
     font-size: 2rem;
     font-weight: 600;
 }
+@media (max-width: 600px) {
+    .upbar {
+      height: 3rem;
+     display: flex;
+     
+    }
+  
+    .upbar div h1 {
+      font-size: 1.5rem;
+    }
+  
+    .upbar .logo {
+      height: 4.2rem;
+      width: 4.2rem;
+    }
+  
+  .upbar .fx{
+    font-size: small;
+  }
+  
+    .rupee {
+      flex-direction: column;
+     
+    }
+  
+    #coin-logo {
+      height: 5rem;
+      width: 5rem;
+    }
+  
+    .cont {
+      flex-direction: column;
+    }
+  
+    .left,
+    .MainContent {
+      width: 100%;
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+  
+    .MainContent {
+      padding-top: 1rem;
+      font-size: small;
+    }
+  
+    .history {
+      margin: 0 1rem;
+    }
+    #coin-description {
+        text-align: justify;
+      }
+  }
+  
