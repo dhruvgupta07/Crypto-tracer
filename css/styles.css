@@ -127,9 +127,11 @@ body {
     .upbar .logo {
         height: 4.2rem;
         width: 4.2rem;
-    }
+    } 
     .upbar ul li a {
-        font-size:1.2vh ;
+        font-size:1.4vh ;
+        font-weight: 600;
+        color: black;
     }
     .content {
         flex-direction: column;
