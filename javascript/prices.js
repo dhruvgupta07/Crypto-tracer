@@ -58,7 +58,9 @@ function createSingle(index, logo, Cname, symbol, coinId) {
 
     const anchor_e = document.createElement('a');
     anchor_e.innerText = "More Info";
-    anchor_e.href = "../html/detail.html?id=" + coinId;
+    anchor_e.href = "./detail.html?id=" + coinId;
+    console.log(`Generated link: ${anchor_e.href}`); // Add this line to log the generated link
+  
 
     const cont_ele = document.createElement('div');
     cont_ele.classList.add('SingleResult');

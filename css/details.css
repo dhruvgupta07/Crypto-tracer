@@ -69,6 +69,7 @@ html, body {
     flex-wrap: wrap;
 }
 .left{
+    height: 10rem;
  width: calc(25% - 10rem);  
  padding: 5rem;
 }

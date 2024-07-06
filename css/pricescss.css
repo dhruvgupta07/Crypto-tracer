@@ -18,15 +18,14 @@ html, body {
 }
 .upbar{
     background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967);
-    background-color: transparent;
-    height: 70px;
+   
+    height: 80px;
     width: 100%;
-    display:flex ;
+    display: flex;
     padding: 5px;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    
     
 }
 
