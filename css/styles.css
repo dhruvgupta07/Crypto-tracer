@@ -130,7 +130,7 @@ body {
     } 
     .upbar ul li a {
         font-size:1.4vh ;
-        font-weight: 600;
+        font-weight: 600; 
         color: black;
     }
     .content {
