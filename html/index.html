@@ -7,7 +7,8 @@
     <title>CrypTrace</title>
     <link rel="icon" type="image/x-icon" href="../img/dd-removebg-preview-removebg-preview (2).png" />
     <link rel="stylesheet" href="../css/styles.css" />
-   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
 </head>
   <body>
@@ -24,7 +25,7 @@
         </div>
         <ul>
           <li><a href="#">About</a></li>
-          <li><a href="./prices.html"  id="Cost">Prices</a></li>
+          
         </ul>
       </nav>
       <div class="content">
@@ -37,65 +38,9 @@
             Make informed decisions with our comprehensive cryptocurrency
             tracker.
           </p>
+          <button onclick="openprice()">Try Now!</button>
         </div>
-        <div class="auth">
-          <div class="wrapper">
-            <form action="../backend/login.php" class="loginForm" method="post">
-                <h1>Login</h1>
-                <div class="input-box">
-                    <input name="username" type="text" placeholder="Username" required>
-                    <i class='bx bxs-user'></i>
-                </div>
-                <div class="input-box">
-                    <input name="password" type="password" placeholder="Password" required>
-                    <i class='bx bxs-lock-alt'></i>
-                </div>
-
-                <div class="rem-forget">
-                    <label ><input type="checkbox">Remember me</label>
-                    <a href="#">Forgot Passowrd</a>
-                </div>
-                <button type="submit" class="btnsub">Submit</button>
-             <div class="register">
-                <p>Don't have an account?<a href="#" class="registerLink">Register</a></p>
-             </div>
-            </form>
-          </div>
-          <div class="wrapper2">
-            <h1>Registration</h1>
-            <form action="../backend/register.php" method="post">
-              <div class="input-box">
-                <input name="username" type="text" placeholder="Enter your name" required>
-                <i class='bx bxs-user'></i>
-              </div>
-              <div class="input-box">
-                <input name="email" type="text" placeholder="Enter your email" required>
-                <i class='bx bxs-envelope'></i>
-              </div>
-              <div  class="input-box">
-                <input name="password" type="password" placeholder="Create password" required>
-                <i class='bx bxs-low-vision'></i>
-              </div>
-              <div class="input-box">
-                <input type="password" placeholder="Confirm password" required>
-                <i class='bx bxs-low-vision'></i>
-              </div>
-              <div class="policy">
-                <legend><input type="checkbox">I accept all terms & condition</legend>
-                
-              </div>
-            
-              <button type="submit" id="myButton" class="btnsub2">Submit</button>
-
-
-
-              <div class="register2">
-                <p>Already have an account?<a href="#" class="registerLink2">Login</a></p>
-             </div>
-            </form>
-          </div>
-          </div>
-    </div>
+      
     </div>
     <script src="../javascript/javasc.js"></script>
   </body>

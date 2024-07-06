@@ -17,7 +17,7 @@ html, body {
 
 }
 .upbar{
-    /* background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967); */
+    background-image: linear-gradient(to right, #AE8625, #F7EF8A, #D2AC47, #EDC967);
     background-color: transparent;
     height: 70px;
     width: 100%;
@@ -63,7 +63,7 @@ html, body {
     width:15vh;
    
 }
-.Searchbar {margin-top: -2rem;
+.Searchbar {margin-top: 2rem;
     font-size: 1rem;
     text-align:center ;
 }
